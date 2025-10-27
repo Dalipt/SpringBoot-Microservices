@@ -1,0 +1,24 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.java</groupId>
+  <artifactId>JacksonApi</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>JacksonApi</name>
+  <properties>
+  <maven.compile.source>21</maven.compile.source>
+  <maven.compile.target>21</maven.compile.target>
+  </properties>
+  <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependencies>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.18.1</version>
+</dependency>
+	<dependency>
+		<groupId>com.java</groupId>
+		<artifactId>SpringMvcApp</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+</dependencies>
+</project>
